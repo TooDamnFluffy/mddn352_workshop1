@@ -1,0 +1,37 @@
+
+nav select {
+ display: none;
+}
+
+@media (max-width: 960px) {
+  nav ul {
+    display: none;
+  }
+
+  nav select {
+    display: inline-block;
+  }
+
+}
+
+
+body {
+  background-color: #FACC2E;
+  position: relative;
+  color: #000000;
+  font-weight: bold;
+}
+
+h1 {
+	color: #FF3300;
+	font-weight: bold;
+  position: center;
+}
+
+content {
+	background-color: #000000;
+}
+
+li {
+  display: inline-block;
+}
